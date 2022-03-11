@@ -1,0 +1,388 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+
+body {
+    font-family: 'Oswald';
+    box-sizing: border-box;
+    width: 100%;
+    background: #15161B;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header .logo {
+    padding-top: 35px;
+}
+
+header h2 {
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+header span {
+    color: #1a7993;
+}
+
+/* section */
+
+.secao-1 {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 130px;
+}
+
+.imagem1 img {
+    width: 420px;
+    height: auto;
+}
+
+.secao-1 h1  {
+    color: #FFFFFF;
+    font-size: 45px;
+    line-height: 50px;
+}
+
+.secao-1 h3  {
+    color: #FFFFFF;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.secao-1 button {
+    width: 300px;
+    height: 55px;
+    background: #1a7993;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Oswald';
+    font-style: normal;
+    margin-top: 20px;
+    transition: 0.9s;
+}
+
+.secao-1 button:hover {
+    color: #1a7993;
+    background: #FFFFFF;
+}
+
+/* section cards */
+
+.cards h4 {
+    color: #FFFFFF;
+    font-size: 23px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px 4px  #1a7993;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 130px;
+    align-items: center;
+}
+
+.img-cards {
+    display: flex;
+    margin-top: 60px;
+    gap: 25px;
+}
+
+.card img {
+    width: 65px;
+}
+
+.card {
+    background: #2c2f37;
+    width: 200px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Oswald';
+    font-style: normal;
+    transition: 0.7s;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.card:hover {
+    background: #1a7993;
+}
+
+.card:nth-child(3) {
+    background: #1a7993;
+}
+
+/* secao2 */
+
+.secao-2 {
+    width: 100%;
+    background-size: 100% 100%;
+    display: flex;
+    background: #1a7993;
+    margin-top: 150px;
+    justify-content: center;
+    gap: 130px;
+}
+
+.secao-2 img {
+    width: 280px;
+    height: auto;
+}
+
+.secao-2 h1 {
+    color: #FFFFFF;
+    font-size: 30px;
+    margin-top: 50px;
+    font-weight: 700;
+    font-family: 'Oswald';
+    font-style: normal;
+}
+
+.secao-2 h3 {
+    color: #FFFFFF;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    line-height: 30px;
+}
+
+.secao-2 button {
+    width: 300px;
+    height: 60px;
+    background: #FAFBFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #0f0e0e;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Oswald';
+    font-style: normal;
+    margin-top: 30px;
+    transition: 0.9s;
+    
+}
+
+/* SECTION 3 */
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    padding-bottom: 50px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+
+.form h2 {
+    color: #FAFBFF;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.form input {
+    width: 400px;
+    height: 50px;
+    border-radius: 4px;
+    border: none;
+    margin: 10px 0;
+    outline: none;
+    padding: 0px 10px;
+}
+
+.form button {
+    width: 410px;
+    height: 55px;
+    background: #1a7993;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Oswald';
+    font-style: normal;
+    margin-top: 20px;
+    transition: 0.9s;
+}
+
+.form button:hover {
+    color: #080808;
+}
+
+.form strong {
+    margin-left: 33px;
+}
+
+/* footer */
+
+footer {
+    margin-top: 100px;
+    padding-bottom: 60px;
+
+}
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rodape img {
+    width: 40px;
+}
+
+.rodape p {
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+
+}
+
+/* responsividade */
+
+@media (max-width:923px) {
+    .secao-1  {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .secao-1 h3 {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+
+}
+
+@media (max-width:909px) {
+    .secao-2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:891px) {
+    .img-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title2{
+        margin-left: 40px;
+    }
+
+    .imagem2 img {
+        margin-right: 40px;
+    }
+
+
+}
+
+@media (max-width:431px) {
+
+    .logo h2 {
+        font-size: 20px;
+    }
+
+
+    .secao-1 h3 {
+        font-size: 15px;
+        margin-top: -50px;
+    }
+
+    .secao-1 h1 {
+
+        font-size: 30px;
+        line-height: 27px;
+    }
+
+    .secao-1 button {
+        width: 250px;
+    }
+
+    .secao-1 img {
+        width: 300px;
+    }
+
+    .cards h4 {
+        font-size: 17px;
+    }
+
+    .card {
+        width: 200px;
+        height: 150px;
+    }
+
+    .secao-2 h1 {
+        font-size: 20px;
+    }
+
+    .secao-2 h3 {
+        font-size: 15px;
+    }
+
+    .secao-2 button {
+        width: 280px;
+    }
+
+    .secao-2 img {
+        width: 250px;
+    }
+
+    .form h2 {
+        font-size: 13px;
+    }
+
+    .form input {
+        width: 250px;
+    }
+
+    .form button {
+        width: 250px;
+    }
+     
+        
+}
